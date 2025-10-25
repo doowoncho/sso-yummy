@@ -49,10 +49,10 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-white border-t">
           <ul className="flex flex-col items-center py-4 space-y-3 text-lg font-medium">
-            <li><a href="#home" className="text-gray-700 hover:text-red-500 transition">Home</a></li>
-            <li><a href="#menu" className="text-gray-700 hover:text-red-500 transition">Menu</a></li>
-            <li><a href="#contact" className="text-gray-700 hover:text-red-500 transition">Contact</a></li>
-            <li><a href="#about" className="text-gray-700 hover:text-red-500 transition">About</a></li>
+            <li><a href="/" className="text-gray-700 hover:text-red-500 transition">Home</a></li>
+            <li><a href="/menu" className="text-gray-700 hover:text-red-500 transition">Menu</a></li>
+            <li><a href="/contact" className="text-gray-700 hover:text-red-500 transition">Contact</a></li>
+            <li><a href="/about" className="text-gray-700 hover:text-red-500 transition">About</a></li>
           </ul>
         </div>
       )}
