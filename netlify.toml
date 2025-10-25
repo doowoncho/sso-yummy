@@ -1,4 +1,4 @@
 [build]
   base = "ssoyummy-app"
-  publish = "ssoyummy-app/dist"
+  publish = "/dist"
   command = "npm run build"
