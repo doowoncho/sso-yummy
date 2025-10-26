@@ -3,7 +3,7 @@ import building from "../assets/ssoyummy.jpg"
 
 export default function About() {
   return (
-    <div className="pt-20 px-4 py-16 min-h-screen mt-3">
+ <div className="pt-20 px-4 md:py-16 py-8 min-h-screen mt-3">
       <div className="max-w-6xl mx-auto">
 
             <picture>
@@ -47,22 +47,22 @@ export default function About() {
           </div>
 
         {/* Our Story Section */}
-        <div className="bg-white rounded-2xl p-12 mb-12">
+        <div className="bg-white rounded-2xl sm:p-12 mb-12 pt-3">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">History</h2>
           <div className="max-w-3xl">
             <picture>
-              <source media="(min-width: 500px)" srcSet={art} />
+              <source media="(min-width: 300px)" srcSet={art} />
               <img 
                 alt="Korean Street Food Art"
                 className="w-full h-full object-cover rounded-xl mb-8"
               />
             </picture>
 
-            <p className="text-gray-700 leading-relaxed text-lg mb-6">
+            <p className="text-gray-700 leading-relaxed text-lg mb-6 text-left">
               Boonshik (분식) refers to a category of Korean street food that is both affordable and delicious. Boonshik has become synonymous with the bustling, vibrant energy of Korean street markets. Vendors who specialize in Boonshik are often found in popular areas such as Myeongdong, Insadong, or around university campuses.
             </p>
 
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-lg text-left">
               These small, casual eateries often operate from food carts or small shops, and they offer a social experience where customers can stand or sit together, enjoying affordable yet flavorful dishes.
             </p>
           </div>
