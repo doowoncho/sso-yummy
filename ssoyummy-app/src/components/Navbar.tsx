@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full absolute top-0 left-0 z-10 bg-white">
+    <nav className="w-full absolute top-0 left-0 z-10 bg-white sticky">
       <div className="flex items-center justify-between py-2 px-4 md:px-12 mx-auto max-w-4xl">
         {/* Hamburger button - mobile only */}
         <button 
@@ -22,11 +22,13 @@ export default function Navbar() {
             <li><a href="/menu" className="text-gray-700 hover:text-red-500 transition">Menu</a></li>
           </ul>
           
-          <img 
-            src={logo}
-            alt="Sso Yummy Logo" 
-            className="h-11"
-          />
+            <a href="/">
+              <img 
+                src={logo}
+                alt="Sso Yummy Logo" 
+                className="h-11"
+              />
+            </a>
           
           <ul className="flex space-x-20 text-lg font-medium">
             <li><a href="/contact" className="text-gray-700 hover:text-red-500 transition">Contact</a></li>
@@ -35,14 +37,16 @@ export default function Navbar() {
         </div>
 
         {/* Mobile logo */}
+        <a href="/">
         <img 
           src={logo}
           alt="Sso Yummy Logo" 
           className="h-8 md:hidden"
-        />
+          />
+        </a>
         
         {/* Spacer for mobile */}
-        <div className="w-8 md:hidden"></div>
+        <div className="w-12 md:hidden"></div>
       </div>
 
       {/* Mobile menu */}

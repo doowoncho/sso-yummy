@@ -3,7 +3,7 @@ import { MenuItems } from "../components/MenuItems";
 export default function Menu() {
   const menuItems = MenuItems;
   return (
-    <section id="menu" className="w-full py-16 px-14 md:px-12 min-h-screen pt-24">
+        <section id="menu" className="w-full py-16 px-4 sm:px-6 md:px-12 lg:px-14 min-h-screen pt-24">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-gray-800">
           Our Menu

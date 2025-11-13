@@ -14,7 +14,7 @@ export default function About() {
               />
             </picture>
 
-        <h1 className="text-5xl font-bold text-center text-gray-900 mb-4">For over 10 years</h1>
+        <h1 className="text-5xl font-bold text-center text-gray-900 mb-4">For Over 10 Years</h1>
         <p className="text-center text-lg text-gray-600 mb-16">We've been giving authentic korean street food flavours to Calgary</p>
         {/* Owners Section */}
         <div className="bg-white rounded-2xl shadow-xl p-12 border border-gray-100">
@@ -39,7 +39,7 @@ export default function About() {
               <div className="text-6xl">👨‍🍳</div>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Sungmoo</h3>
-            <p className="text-blue-600 font-medium mb-4">Co-Founder & Operations</p>
+            <p className="text-blue-600 font-medium mb-4">Co-Owner & Operations</p>
             <p className="text-gray-600 leading-relaxed">
               Sungmoo had the vision to bring his family to Calgary, drawn by the city's abundant sunny days and welcoming community. His unwavering support for Heather's culinary dreams made this restaurant possible. Together, they're building a family legacy and sharing the warmth of Korean street food culture with their new home.
               </p>

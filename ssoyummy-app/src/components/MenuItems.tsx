@@ -11,12 +11,12 @@ export const MenuItems = [
         },
         { 
           name: "Original Kimbap", 
-          price: "$6", 
+          price: "$6.00", 
         },
         { 
           name: "Cheese Kimbap", 
           image: "", 
-          price: "$7.5", 
+          price: "$7.50", 
         },
         { 
           name: "Spam Kimbap", 
@@ -76,7 +76,7 @@ export const MenuItems = [
       items: [
         { 
           name: "Mini Boong Uh Bbang 10pc", 
-          price: "$6", 
+          price: "$6.00", 
           description: "Red bean | Custard",
           image: "mini.jpg"
         },
@@ -88,12 +88,12 @@ export const MenuItems = [
       items: [
         { 
           name: "Bottle of Water", 
-          price: "$2.5", 
+          price: "$2.50", 
           image: "", 
         },
         { 
           name: "Pop", 
-          price: "$2.5", 
+          price: "$2.50", 
           image: "", 
           description: "Coke | Coke Zero | Fuze | Canada Dry | Sprite",
         },
@@ -180,7 +180,7 @@ export const MenuItems = [
         name: "Meat", 
         description: "",
         image: "",
-        price: "$4", 
+        price: "$4.00", 
       },
       { 
         name: "Sauce", 
